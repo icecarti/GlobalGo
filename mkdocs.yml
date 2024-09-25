@@ -1,0 +1,18 @@
+site_name: GlobalGo
+
+theme:
+  name: "superhero"
+  logo: 'images/globalgo_logo.png'
+  favicon: 'images/globalgo_logo.png'
+
+nav:
+  - Главная: index.md
+  - Услуги: services.md
+  - О нас: about.md
+  - Контакты: contact.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: True
